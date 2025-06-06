@@ -120,7 +120,7 @@ export default function Dashboard({ user }) {
           <div className="card text-center">
             <div className="text-sm text-gray-400 mb-2">RFQ urgents</div>
             <div className="text-3xl font-bold text-red-400 mb-1">{stats.urgentRFQ}</div>
-            <div className="text-xs text-red-400">&lt; 6 mois</div>
+            <div className="text-xs text-red-400">moins de 6 mois</div>
           </div>
           
           <div className="card text-center">
